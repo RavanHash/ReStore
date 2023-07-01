@@ -134,3 +134,6 @@ $RECYCLE.BIN/
 _NCrunch*
 
 API/appsettings.json
+
+*.db-shm
+*.db-wal
