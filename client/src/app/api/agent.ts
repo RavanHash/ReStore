@@ -20,7 +20,7 @@ const TestErrors = {
   get400Error: () => request.get("buggy/bad-request"),
   get401Error: () => request.get("buggy/unauthorised"),
   get404Error: () => request.get("buggy/not-found"),
-  getError500: () => request.get("buggy/server-error"),
+  get500Error: () => request.get("buggy/server-error"),
   getValidationError: () => request.get("buggy/validation-error"),
 };
 
